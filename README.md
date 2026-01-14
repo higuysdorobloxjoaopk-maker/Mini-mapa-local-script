@@ -5,6 +5,7 @@ hey para que funcione corretamente primeiro crie uma pasta(folder) no worspace n
 
 script:
 
+```lua
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 
@@ -195,3 +196,4 @@ RunService.RenderStepped:Connect(function()
 		end
 	end
 end)
+```
